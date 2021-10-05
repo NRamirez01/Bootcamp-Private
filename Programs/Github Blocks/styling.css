@@ -1,0 +1,29 @@
+.container {
+    background-color:rgb(240, 240, 255);
+}
+h1 {   
+    text-align: center;
+    color: rgb(72, 72, 85);
+}
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+div img {
+    height: 200px;
+    padding: 15px; 
+}
+.first{
+    background-color: red;
+}
+.second {
+    background-color: pink;
+}
+.third{
+    background-color: yellow;
+}
+footer{
+    text-align: center;
+}
