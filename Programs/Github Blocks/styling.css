@@ -1,5 +1,8 @@
 .container {
     background-color:rgb(240, 240, 255);
+    width: fit-content;
+    margin: 0 auto;
+    vertical-align: middle;
 }
 h1 {   
     text-align: center;
@@ -13,6 +16,7 @@ div {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 1000px;
 }
 div img {
     height: 200px;
@@ -24,6 +28,7 @@ div img {
 }
 .second {
     background-color: pink;
+    justify-content: space-evenly;
 
 }
 .third{
