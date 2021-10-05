@@ -1,15 +1,19 @@
 .container {
     background-color:rgb(240, 240, 255);
+    padding: ;
 }
 h1 {   
     text-align: center;
     color: rgb(72, 72, 85);
 }
 div {
+    padding: 25px;
+    margin: 35px;
+    margin-left: 250px;
+    margin-right: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 25px;
 }
 div img {
     height: 200px;
@@ -17,9 +21,11 @@ div img {
 }
 .first{
     background-color: red;
+    display: flex;
 }
 .second {
     background-color: pink;
+
 }
 .third{
     background-color: yellow;
