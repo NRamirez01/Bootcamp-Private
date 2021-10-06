@@ -1,0 +1,45 @@
+
+body {
+    margin: 0 px auto;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    margin-top: 50px;
+    width: 800px;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+.top {
+    background-color: #2596be;
+    flex: 1;
+}
+.bottom {
+    background-color: white;
+    flex: 3;
+    border: solid 4px lightgrey;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 90px;
+    right: 250px;
+}
+.info>*{
+    margin-bottom: 10px;
+}
+.icon {
+    width: 100px;
+    border: solid 4px lightgrey;
+    border-radius: 50%;
+}
+.gear, .loc {
+    width: 15px;
+}
+.name {
+    font-size: 30px;
+}
