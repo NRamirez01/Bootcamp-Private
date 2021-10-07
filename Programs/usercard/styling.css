@@ -11,7 +11,7 @@ body {
     height: 375px;
     display: flex;
     flex-direction: column;
-    position: relative;
+    position: absolute;
 }
 .top {
     background-color: #2596be;
